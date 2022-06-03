@@ -10,7 +10,7 @@ const SingleProduct = ({ prod }) => {
 
   return (
     <div className="products">
-      <Card>
+      <Card >
         <Card.Img variant="top" src={prod.image} alt={prod.name} />
         <Card.Body>
           <Card.Title>{prod.name}</Card.Title>
